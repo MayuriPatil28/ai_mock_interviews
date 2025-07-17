@@ -77,10 +77,10 @@ interface SignInParams {
 }
 
 interface SignUpParams {
-  uid: string;
-  name: string;
   email: string;
+  name: string;
   password: string;
+  uid: string;
 }
 
 type FormType = "sign-in" | "sign-up";
